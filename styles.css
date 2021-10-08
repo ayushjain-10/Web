@@ -1,0 +1,42 @@
+body {
+    font-family: helvetica;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.box {
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    padding: 0.5em;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#visualizer {
+    align-items: center;
+}
+
+#pizza {
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+label {
+    margin-top: 8px;
+    margin-bottom: 2px;
+}
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Web Assesment</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <main>
+        <section class="box" id="form">
+            <h1>Order Form</h1>
+            <label for="name">Order name</label>
+            <input type="text" id="name">
+            <label for="diameter">Diameter (in inches)</label>
+            <input type="range" id="diameter" min="6" max="100">
+            <label for="pizza-type">Choose Topping</label>
+            <select id="pizza-type">
+                <option>Cheese</option>
+                <option>Onions</option>
+                <option>Pepperoni</option>
+                <option>Sausage</option>
+                <option>Tomatoes</option>
+            </select>
+        </section>
+        <section class="box" id="form">
+            <h1>Order Details</h1>
+            <p id="name-output">Name:</p>
+            <p id="diameter-output">Diameter:</p>
+            <p id="cost-output">Cost:</p>
+        </section>
+        <section class="box" id="visualizer">
+            <h1>Order Visulization</h1>
+            <div id="pizza"></div>
+        </section>
+    </main>
+    <script src="scripts.js" type="module"></script>
+</body>
+
+</html>
